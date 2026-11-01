@@ -1,0 +1,21 @@
+{
+  "name": "genpark-personal-agent-cranial-nfl-neurofilament-light-chain-axonal-injury-skill",
+  "version": "1.0.0",
+  "description": "Serum Neurofilament Light Chain (NfL, pg/mL) subclinical neuroaxonal destruction & MS/TBI relapse sentinel.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "stratify_neurofilament_light_chain_injury",
+      "description": "Serum Neurofilament Light Chain (NfL, pg/mL) subclinical neuroaxonal destruction & MS/TBI relapse sentinel.",
+      "sample_input": {
+        "snfl_pg_ml": 21.5,
+        "age_years": 44,
+        "history_tbi_or_contact_sports": false
+      }
+    }
+  ]
+}
